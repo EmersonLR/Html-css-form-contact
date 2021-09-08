@@ -35,6 +35,8 @@ body {
 }
 
 .contact-box {
+  border-radius:3px;
+  padding: 20px;
   max-width: 850px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -46,6 +48,7 @@ body {
 }
 
 .left {
+  border-radius: 20px;
   height: 100%;
   background: url(img/red-ferrari.jpg) no-repeat center;
   background-size: cover;
@@ -70,10 +73,11 @@ h2:after {
   height: 4px;
   width: 50px;
   border-radius: 2px;
-  background-color: #2ecc71;
+  background-color: #fb7373;
 }
 
 .field {
+  border-radius: 5px;
   width: 100%;
   padding: 0.5rem 1rem;
   outline: none;
@@ -98,10 +102,11 @@ h2:after {
 }
 
 .btn {
+  border-radius: 20px;
   width: 100%;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
-  background-color: #2ecc71;
+  background-color: #f20327;
   cursor: pointer;
   outline: none;
   border: none;
@@ -110,7 +115,7 @@ h2:after {
 }
 
 .btn:hover {
-  background-color: #27ae60;
+  background-color: #fe9c9d;
 }
 
 .btn a {
