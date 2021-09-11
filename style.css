@@ -55,7 +55,19 @@ body {
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
   padding: 25px 40px;
+}
+
+.close{
+  align-self: flex-end;
+  width: fit-content;
+  display: flex;
+}
+
+.uk-close{
+  position: absolute;
 }
 
 h2 {
